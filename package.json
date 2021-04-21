@@ -27,6 +27,8 @@
     "test": "jest --colors --runInBand --no-cache --detectOpenHandles"
   },
   "dependencies": {
+    "@types/faker": "^5.5.3",
+    "faker": "^5.5.3",
     "pg": "^8.6.0",
     "typeorm": "^0.2.32"
   }
