@@ -25,5 +25,9 @@
   },
   "scripts": {
     "test": "jest --colors --runInBand --no-cache --detectOpenHandles"
+  },
+  "dependencies": {
+    "pg": "^8.6.0",
+    "typeorm": "^0.2.32"
   }
 }
