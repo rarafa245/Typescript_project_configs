@@ -1,8 +1,9 @@
+import { UsersRepository as UsersRepositoryInterface } from '@/data/interfaces/users_repository'
+import { Users } from '@/domain/models/users'
 import { PgConnectionHandler, PgConnectionHandlerInterface } from '@/infra/pg_connection_handler'
 import { Users as UsersModel } from '@/infra/entities/users'
-import { Users } from '@/domain/models/users'
 
-export class UsersRepository {
+export class UsersRepository implements UsersRepositoryInterface {
   pgConnectionHandler: PgConnectionHandlerInterface
 
   constructor () { this.pgConnectionHandler = new PgConnectionHandler() }
