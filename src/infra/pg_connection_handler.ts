@@ -17,7 +17,7 @@ export class PgConnectionHandler implements PgConnectionHandlerInterface {
       host: '172.17.0.2',
       port: 5432,
       username: 'postgres',
-      password: 'Elipse0001',
+      password: '',
       database: 'postgres',
       logging: false,
       entities: [
